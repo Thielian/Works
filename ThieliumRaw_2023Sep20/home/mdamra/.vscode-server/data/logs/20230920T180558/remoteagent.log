@@ -1,0 +1,44 @@
+2023-09-20 18:05:58.966 [info] 
+
+
+
+
+2023-09-20 18:05:58.966 [info] Extension host agent started.
+2023-09-20 18:05:58.979 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mdamra/.vscode-server/extensions
+2023-09-20 18:05:58.996 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mdamra/.vscode-server/extensions
+2023-09-20 18:06:00.131 [info] [127.0.0.1][12c00573][ManagementConnection] New connection established.
+2023-09-20 18:06:00.201 [info] [127.0.0.1][888666d6][ExtensionHostConnection] New connection established.
+2023-09-20 18:06:00.270 [info] [127.0.0.1][888666d6][ExtensionHostConnection] <630579> Launched Extension Host Process.
+2023-09-20 18:06:32.831 [info] [127.0.0.1][12c00573][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-20 18:06:32.832 [error] Error: Throttler is disposed
+    at c.queue (/home/mdamra/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /home/mdamra/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /home/mdamra/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-20 18:06:37.852 [info] [127.0.0.1][888666d6][ExtensionHostConnection] <630579> Extension Host Process exited with code: 0, signal: null.
+2023-09-20 18:06:37.852 [info] Cancelling previous shutdown timeout
+2023-09-20 18:06:37.852 [info] Last EH closed, waiting before shutting down
+2023-09-20 18:06:46.283 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-20 18:06:46.283 [info] Cancelling previous shutdown timeout
+2023-09-20 18:06:46.864 [info] [127.0.0.1][4d55ed09][ManagementConnection] New connection established.
+2023-09-20 18:06:47.104 [info] [127.0.0.1][df236c0d][ExtensionHostConnection] New connection established.
+2023-09-20 18:06:47.152 [info] [127.0.0.1][df236c0d][ExtensionHostConnection] <630741> Launched Extension Host Process.
+2023-09-20 18:07:11.298 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/630590/task/630782/ns' failed: No such file or directory (EUNKNOWN) (path: /)
+2023-09-20 18:07:11.298 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '//proc/630590/task/630782/ns' failed: No such file or directory
+2023-09-20 18:07:24.038 [info] Getting Manifest... ms-python.python
+2023-09-20 18:07:24.736 [info] Installing extension: ms-python.python
+2023-09-20 18:07:25.194 [info] Getting Manifest... ms-python.vscode-pylance
+2023-09-20 18:07:26.168 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-09-20 18:07:29.276 [warning] Extension signature verification failed with error 'ENOENT': ms-python.python
+2023-09-20 18:07:33.341 [info] Extracted extension to file:///home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0: ms-python.python
+2023-09-20 18:07:33.356 [info] Renamed to /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0
+2023-09-20 18:07:33.369 [info] Extracting extension completed. ms-python.python
+2023-09-20 18:07:36.571 [warning] Extension signature verification failed with error 'ENOENT': ms-python.vscode-pylance
+2023-09-20 18:07:43.463 [info] Extracted extension to file:///home/mdamra/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10: ms-python.vscode-pylance
+2023-09-20 18:07:43.476 [info] Renamed to /home/mdamra/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10
+2023-09-20 18:07:43.482 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-09-20 18:07:43.490 [info] Extension installed successfully: ms-python.python
+2023-09-20 18:07:43.490 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-09-20 18:11:46.283 [info] New EH opened, aborting shutdown

@@ -1,0 +1,83 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:39423 (IPv4)
+Extension host agent listening on 39423
+
+[18:05:58] 
+
+
+
+
+[18:05:58] Extension host agent started.
+[18:05:58] Started initializing default profile extensions in extensions installation folder. file:///home/mdamra/.vscode-server/extensions
+[18:05:58] Completed initializing default profile extensions in extensions installation folder. file:///home/mdamra/.vscode-server/extensions
+[18:06:00] [127.0.0.1][12c00573][ManagementConnection] New connection established.
+[18:06:00] [127.0.0.1][888666d6][ExtensionHostConnection] New connection established.
+[18:06:00] [127.0.0.1][888666d6][ExtensionHostConnection] <630579> Launched Extension Host Process.
+[18:06:32] [127.0.0.1][12c00573][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:06:32] Error: Throttler is disposed
+    at c.queue (/home/mdamra/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /home/mdamra/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /home/mdamra/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+[18:06:37] [127.0.0.1][888666d6][ExtensionHostConnection] <630579> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[18:06:37] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[18:06:37] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[18:06:46] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[18:06:46] Cancelling previous shutdown timeout
+[18:06:46] [127.0.0.1][4d55ed09][ManagementConnection] New connection established.
+[18:06:47] [127.0.0.1][df236c0d][ExtensionHostConnection] New connection established.
+[18:06:47] [127.0.0.1][df236c0d][ExtensionHostConnection] <630741> Launched Extension Host Process.
+[18:07:11] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/630590/task/630782/ns' failed: No such file or directory (EUNKNOWN) (path: /)
+[18:07:11] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '//proc/630590/task/630782/ns' failed: No such file or directory
+[18:07:24] Getting Manifest... ms-python.python
+[18:07:24] Installing extension: ms-python.python
+[18:07:25] Getting Manifest... ms-python.vscode-pylance
+[18:07:26] Installing extension: ms-python.vscode-pylance ms-python.python
+[18:07:29] Extension signature verification failed with error 'ENOENT': ms-python.python
+[18:07:33] Extracted extension to file:///home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0: ms-python.python
+[18:07:33] Renamed to /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0
+[18:07:33] Extracting extension completed. ms-python.python
+[18:07:36] Extension signature verification failed with error 'ENOENT': ms-python.vscode-pylance
+[18:07:43] Extracted extension to file:///home/mdamra/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10: ms-python.vscode-pylance
+[18:07:43] Renamed to /home/mdamra/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10
+[18:07:43] Extracting extension completed. ms-python.vscode-pylance
+[18:07:43] Extension installed successfully: ms-python.python
+[18:07:43] Extension installed successfully: ms-python.vscode-pylance
+New EH opened, aborting shutdown
+[18:11:46] New EH opened, aborting shutdown
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/clp'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/clp'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/mysql'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/mysql'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/ubuntu'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/ubuntu'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/aleflabs/.ssh'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/aleflabs/.ssh'
+}

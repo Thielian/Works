@@ -1,0 +1,11 @@
+2023-09-20 18:06:48.633 [info] Extension host with pid 630741 started
+2023-09-20 18:06:48.649 [info] Lock '/home/mdamra/.vscode-server/data/User/workspaceStorage/68ef1ae2f5feb188dad42aec5907e38b/vscode.lock': Lock acquired.
+2023-09-20 18:06:48.923 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*'
+2023-09-20 18:06:49.082 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-09-20 18:06:49.385 [info] Eager extensions activated
+2023-09-20 18:06:49.385 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-20 18:06:49.386 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-20 18:06:50.882 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-09-20 18:07:13.129 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-20 18:07:44.858 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-09-20 18:07:45.538 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

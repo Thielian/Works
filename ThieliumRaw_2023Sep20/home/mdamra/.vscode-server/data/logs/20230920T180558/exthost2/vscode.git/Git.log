@@ -1,0 +1,58 @@
+2023-09-20 18:06:51.316 [info] Log level: Info
+2023-09-20 18:06:51.316 [info] Validating found git in: "git"
+2023-09-20 18:06:51.316 [info] Using git "2.34.1" from "git"
+2023-09-20 18:06:51.316 [info] > git rev-parse --show-toplevel [7ms]
+2023-09-20 18:06:51.316 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.316 [info] > git rev-parse --show-toplevel [4ms]
+2023-09-20 18:06:51.316 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.316 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-20 18:06:51.316 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-20 18:06:51.316 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-20 18:06:51.316 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.316 [info] > git rev-parse --show-toplevel [4ms]
+2023-09-20 18:06:51.316 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.318 [info] > git rev-parse --show-toplevel [5ms]
+2023-09-20 18:06:51.318 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.331 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-20 18:06:51.331 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.342 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-20 18:06:51.342 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.354 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-20 18:06:51.354 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-20 18:06:51.375 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-20 18:06:51.375 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-20 18:06:51.391 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-20 18:06:51.391 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.397 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-20 18:06:51.397 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.417 [info] > git rev-parse --show-toplevel [8ms]
+2023-09-20 18:06:51.417 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-20 18:06:51.431 [info] > git rev-parse --show-toplevel [6ms]
+2023-09-20 18:06:51.431 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.450 [info] > git rev-parse --show-toplevel [8ms]
+2023-09-20 18:06:51.450 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:06:51.466 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-20 18:06:51.466 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:07:13.178 [info] > git rev-parse --show-toplevel [8ms]
+2023-09-20 18:07:13.178 [info] fatal: detected dubious ownership in repository at '/home/aleflabs/htdocs/aleflabs'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/aleflabs/htdocs/aleflabs
+2023-09-20 18:07:16.007 [info] > git rev-parse --show-toplevel [5ms]
+2023-09-20 18:07:16.007 [info] fatal: detected dubious ownership in repository at '/home/aleflabs/htdocs/aleflabs'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/aleflabs/htdocs/aleflabs
+2023-09-20 18:07:44.593 [info] > git rev-parse --show-toplevel [9ms]
+2023-09-20 18:07:44.598 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:07:44.750 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-20 18:07:44.750 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-20 18:08:37.834 [info] > git rev-parse --show-toplevel [26ms]
+2023-09-20 18:08:37.834 [info] fatal: detected dubious ownership in repository at '/home/aleflabs/htdocs/aleflabs'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/aleflabs/htdocs/aleflabs

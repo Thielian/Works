@@ -1,0 +1,93 @@
+2023-09-20 18:07:45.483 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-09-20 18:07:45.483 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-09-20 18:07:45.483 [info] Experiment 'pythonSurveyNotification' is active
+2023-09-20 18:07:45.483 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2023-09-20 18:07:45.483 [info] Experiment 'pythonTestAdaptercf' is active
+2023-09-20 18:07:45.837 [info] Test server listening.
+2023-09-20 18:07:45.839 [warning] Failed to check if /usr/local/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3'
+}
+2023-09-20 18:07:45.853 [error] readdir() failed for "/boot/efi" (Error: EACCES: permission denied, scandir '/boot/efi')
+2023-09-20 18:07:45.902 [info] > .usr.local.bin.python3 -I .home.mdamra..vscode-server.extensions.ms-python.python-2023.16.0.pythonFiles.get_output_via_markers.py .home.mdamra..vscode-server.extensions.ms-python.python-2023.16.0.pythonFiles.interpreterInfo.py
+2023-09-20 18:07:45.916 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py'
+}
+2023-09-20 18:07:45.975 [error] readdir() failed for "/etc/multipath" (Error: EACCES: permission denied, scandir '/etc/multipath')
+2023-09-20 18:07:45.982 [error] readdir() failed for "/etc/redis" (Error: EACCES: permission denied, scandir '/etc/redis')
+2023-09-20 18:07:45.983 [error] readdir() failed for "/etc/sudoers.d" (Error: EACCES: permission denied, scandir '/etc/sudoers.d')
+2023-09-20 18:07:45.986 [error] readdir() failed for "/home/clp" (Error: EACCES: permission denied, scandir '/home/clp')
+2023-09-20 18:07:45.986 [error] readdir() failed for "/home/mysql" (Error: EACCES: permission denied, scandir '/home/mysql')
+2023-09-20 18:07:45.986 [error] readdir() failed for "/home/ubuntu" (Error: EACCES: permission denied, scandir '/home/ubuntu')
+2023-09-20 18:07:45.987 [error] readdir() failed for "/lost+found" (Error: EACCES: permission denied, scandir '/lost+found')
+2023-09-20 18:07:46.048 [error] readdir() failed for "/root" (Error: EACCES: permission denied, scandir '/root')
+2023-09-20 18:07:46.049 [error] readdir() failed for "/run/chrony" (Error: EACCES: permission denied, scandir '/run/chrony')
+2023-09-20 18:07:46.049 [error] readdir() failed for "/run/cryptsetup" (Error: EACCES: permission denied, scandir '/run/cryptsetup')
+2023-09-20 18:07:46.050 [error] readdir() failed for "/run/lvm" (Error: EACCES: permission denied, scandir '/run/lvm')
+2023-09-20 18:07:46.051 [error] readdir() failed for "/run/multipath" (Error: EACCES: permission denied, scandir '/run/multipath')
+2023-09-20 18:07:46.052 [error] readdir() failed for "/run/sudo" (Error: EACCES: permission denied, scandir '/run/sudo')
+2023-09-20 18:07:46.055 [error] readdir() failed for "/srv/ftp" (Error: EACCES: permission denied, scandir '/srv/ftp')
+2023-09-20 18:07:46.057 [error] readdir() failed for "/tmp/snap-private-tmp" (Error: EACCES: permission denied, scandir '/tmp/snap-private-tmp')
+2023-09-20 18:07:46.057 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-chrony.service-HUFfnN" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-chrony.service-HUFfnN')
+2023-09-20 18:07:46.057 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-memcached.service-Qpzj0R" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-memcached.service-Qpzj0R')
+2023-09-20 18:07:46.057 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-redis-server.service-Cq6ktM" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-redis-server.service-Cq6ktM')
+2023-09-20 18:07:46.058 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-logind.service-TLL6mb" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-logind.service-TLL6mb')
+2023-09-20 18:07:46.058 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-resolved.service-Jd7OrP" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-resolved.service-Jd7OrP')
+2023-09-20 18:07:46.275 [error] readdir() failed for "/boot/efi" (Error: EACCES: permission denied, scandir '/boot/efi')
+2023-09-20 18:07:46.292 [error] readdir() failed for "/etc/multipath" (Error: EACCES: permission denied, scandir '/etc/multipath')
+2023-09-20 18:07:46.294 [error] readdir() failed for "/etc/redis" (Error: EACCES: permission denied, scandir '/etc/redis')
+2023-09-20 18:07:46.295 [error] readdir() failed for "/etc/sudoers.d" (Error: EACCES: permission denied, scandir '/etc/sudoers.d')
+2023-09-20 18:07:46.296 [error] readdir() failed for "/home/clp" (Error: EACCES: permission denied, scandir '/home/clp')
+2023-09-20 18:07:46.296 [error] readdir() failed for "/home/mysql" (Error: EACCES: permission denied, scandir '/home/mysql')
+2023-09-20 18:07:46.303 [error] readdir() failed for "/home/ubuntu" (Error: EACCES: permission denied, scandir '/home/ubuntu')
+2023-09-20 18:07:46.303 [error] readdir() failed for "/lost+found" (Error: EACCES: permission denied, scandir '/lost+found')
+2023-09-20 18:07:46.351 [error] readdir() failed for "/root" (Error: EACCES: permission denied, scandir '/root')
+2023-09-20 18:07:46.351 [error] readdir() failed for "/run/chrony" (Error: EACCES: permission denied, scandir '/run/chrony')
+2023-09-20 18:07:46.352 [error] readdir() failed for "/run/cryptsetup" (Error: EACCES: permission denied, scandir '/run/cryptsetup')
+2023-09-20 18:07:46.352 [error] readdir() failed for "/run/lvm" (Error: EACCES: permission denied, scandir '/run/lvm')
+2023-09-20 18:07:46.353 [error] readdir() failed for "/run/multipath" (Error: EACCES: permission denied, scandir '/run/multipath')
+2023-09-20 18:07:46.354 [error] readdir() failed for "/run/sudo" (Error: EACCES: permission denied, scandir '/run/sudo')
+2023-09-20 18:07:46.355 [error] readdir() failed for "/srv/ftp" (Error: EACCES: permission denied, scandir '/srv/ftp')
+2023-09-20 18:07:46.356 [error] readdir() failed for "/tmp/snap-private-tmp" (Error: EACCES: permission denied, scandir '/tmp/snap-private-tmp')
+2023-09-20 18:07:46.356 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-chrony.service-HUFfnN" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-chrony.service-HUFfnN')
+2023-09-20 18:07:46.356 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-memcached.service-Qpzj0R" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-memcached.service-Qpzj0R')
+2023-09-20 18:07:46.356 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-redis-server.service-Cq6ktM" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-redis-server.service-Cq6ktM')
+2023-09-20 18:07:46.356 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-logind.service-TLL6mb" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-logind.service-TLL6mb')
+2023-09-20 18:07:46.357 [error] readdir() failed for "/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-resolved.service-Jd7OrP" (Error: EACCES: permission denied, scandir '/tmp/systemd-private-4e55e6c9890241df875d09608e0a03dc-systemd-resolved.service-Jd7OrP')
+2023-09-20 18:07:46.410 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 18:07:46.410 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-20 18:07:46.410 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-20 18:07:46.410 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-20 18:07:47.170 [info] > .usr.bin.python3 -I .home.mdamra..vscode-server.extensions.ms-python.python-2023.16.0.pythonFiles.get_output_via_markers.py .home.mdamra..vscode-server.extensions.ms-python.python-2023.16.0.pythonFiles.interpreterInfo.py
+2023-09-20 18:07:47.939 [info] > .usr.local.bin.python3 -I .home.mdamra..vscode-server.extensions.ms-python.python-2023.16.0.pythonFiles.get_output_via_markers.py .home.mdamra..vscode-server.extensions.ms-python.python-2023.16.0.pythonFiles.interpreterInfo.py
+2023-09-20 18:07:47.945 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py /home/mdamra/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py'
+}
+2023-09-20 18:07:49.269 [info] Starting Pylance language server.
+2023-09-20 18:07:49.321 [error] Invalid version for /usr/bin/python3: {"name":"","location":"","kind":"global-other","executable":{"filename":"/usr/bin/python3","sysPrefix":"","ctime":1690855908335,"mtime":1660819144000},"display":"Python 3.x","version":{"major":3,"minor":-1,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/usr/bin/python3","detailedDisplayName":"Python 3.x"}
+2023-09-20 18:07:49.322 [error] Invalid version for /usr/bin/python3: {"name":"","location":"","kind":"global-other","executable":{"filename":"/usr/bin/python3","sysPrefix":"","ctime":1690855908335,"mtime":1660819144000},"display":"Python 3.x","version":{"major":3,"minor":-1,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/usr/bin/python3","detailedDisplayName":"Python 3.x"}
+2023-09-20 18:08:37.735 [info] Python interpreter path: ./usr/bin/python3
